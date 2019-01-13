@@ -1,0 +1,25 @@
+{
+  "name": "card",
+  "version": "1.0.0",
+  "description": "My stunning Nuxt.js project",
+  "author": "nabehide",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.0.0",
+    "nuxt-webfontloader": "^1.0.0",
+    "three": "^0.100.0",
+    "three-orbitcontrols": "^2.99.1",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "raw-loader": "^1.0.0"
+  }
+}
