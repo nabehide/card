@@ -5,6 +5,11 @@ const generateBase = process.env.NODE_ENV === 'production' ? {
     dir: "docs",
   },
 } : {}
+const routerBase = process.env.NODE_ENV === 'production' ? {
+  router: {
+    base: '/card',
+  },
+} : {}
 
 module.exports = {
   mode: 'universal',
@@ -71,4 +76,5 @@ module.exports = {
     }
   },
   ...generateBase,
+  ...routerBase,
 }
