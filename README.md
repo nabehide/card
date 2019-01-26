@@ -1,6 +1,9 @@
 # card
+My card rendered with three.js.
 
-> My stunning Nuxt.js project
+## Demo
+* [Front](https://nabehide.github.io/card/front)
+* [Back](https://nabehide.github.io/card/back)
 
 ## Build Setup
 

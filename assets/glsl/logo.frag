@@ -21,7 +21,6 @@ const float offsetZoom = 0.9;
 const float lineWidth = 0.8;
 const float senseAudio = 0.2;
 
-
 const vec3 bg    = vec3(0.00, 0.00, 0.00);
 
 

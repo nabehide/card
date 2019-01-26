@@ -1,5 +1,11 @@
 const pkg = require('./package')
 
+const generateBase = process.env.NODE_ENV === 'production' ? {
+  generate: {
+    dir: "docs",
+  },
+} : {}
+
 module.exports = {
   mode: 'universal',
 
@@ -64,4 +70,5 @@ module.exports = {
       })
     }
   },
+  ...generateBase,
 }
