@@ -6,9 +6,6 @@ const generateBase = process.env.NODE_ENV === 'production' ? {
   },
 } : {}
 const routerBase = process.env.NODE_ENV === 'production' ? {
-  router: {
-    base: '/card',
-  },
 } : {}
 
 module.exports = {
@@ -25,7 +22,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/card/favicon.ico' }
     ]
   },
 
@@ -76,5 +73,7 @@ module.exports = {
     }
   },
   ...generateBase,
-  ...routerBase,
+  router: {
+    base: '/card/',
+  },
 }
