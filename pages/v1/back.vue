@@ -9,7 +9,7 @@ import * as THREE from 'three';
 // import OrbitControls from '~/assets/OrbitControls'
 import OrbitControls from 'three-orbitcontrols'
 // const OrbitControls = require('three-orbitcontrols')
-import Canvas from '~/assets/Canvas'
+// import Canvas from '~/assets/Canvas'
 
 const DEFAULT_VERTEX_SHADER = `
 void main() {
@@ -48,7 +48,7 @@ export default {
       this.scene.background = new THREE.Color(0xf0f0f0);
 
       // this.createPlane(require('~/assets/glsl/orb.frag'), 2*this.aspect, 2, 0);
-      this.createPlane(require('~/assets/glsl/logo.frag'), 2, 2, 1);
+      this.createPlane(require('~/assets/v1/glsl/logo.frag'), 2, 2, 1);
 
       /*
       const loader = new THREE.TextureLoader();

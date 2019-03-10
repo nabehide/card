@@ -9,7 +9,7 @@ import * as THREE from 'three';
 // import OrbitControls from '~/assets/OrbitControls'
 import OrbitControls from 'three-orbitcontrols'
 // const OrbitControls = require('three-orbitcontrols')
-import Canvas from '~/assets/Canvas'
+// import Canvas from '~/assets/Canvas'
 
 const DEFAULT_VERTEX_SHADER = `
 void main() {
@@ -100,7 +100,7 @@ export default {
       }
       const material = new THREE.ShaderMaterial({
         vertexShader: DEFAULT_VERTEX_SHADER,
-        fragmentShader: require('~/assets/glsl/orb.frag'),
+        fragmentShader: require('~/assets/v1/glsl/orb.frag'),
         uniforms: uniforms,
       });
       const geometry = new THREE.PlaneGeometry(2 * this.aspect, 2);
