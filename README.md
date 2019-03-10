@@ -2,8 +2,7 @@
 My card rendered with three.js.
 
 ## Demo
-* [Front](https://nabehide.github.io/card/front)
-* [Back](https://nabehide.github.io/card/back)
+* v1 [[Front](https://nabehide.github.io/card/v1/front)] [[Back](https://nabehide.github.io/card/v1/back)]
 
 ## Build Setup
 
